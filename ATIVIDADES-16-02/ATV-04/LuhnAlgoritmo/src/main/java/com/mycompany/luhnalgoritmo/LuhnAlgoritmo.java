@@ -17,7 +17,7 @@ public class LuhnAlgoritmo {
         }
     }
 
-    static boolean validoNumero(String numero) {
+    public static boolean validoNumero(String numero) {
         String numeroOriginal = numero; // Armazena o número original antes da remoção de espaços
         numero = numero.replaceAll("\\s", "");
 
